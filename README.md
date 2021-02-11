@@ -112,32 +112,32 @@ ETUDE DES PERFOMANCES
 On a éffectué une étude de la performance au niveau des fonctions d'inserion et de recherche, sur 10000 caractères, pour la classe Table de Hashage et Arbre.
 
 -> On a commencé par construire un tableau de pointeurs pour les deux class.
-* Puis créer une fonction pour chronométrer la durée du lancement de chaque 
-élement dans les deux fonctions (affichage et insersion).
-* Ensuite nous avons stocker les résultats qui y sont générées dans un fichier.
--Pour tester toutes les fonctions du programme, les appels des fonctions sont mis en commentaire
-dans le main, il suffit de les décommenter pour observer leur fonctionnement.
--Des "cout" sont mis en commenteires dans les fichier .cpp pour voir le fontionnement des procedures 
-ou la valeur de retour desfocntions. 
--Enfin grace à gnuplot, nous avons pu conclure la performance de chaque classe :
-    -Pour la tables de Hashage, les informations sont considérables autour de la valeur:
-        -Pour la fonction inserer :  
-            -utliser set yrange [0.00 000 000:0.00 000 009].
-            -plot " " sur le fichier d'extention txt
-            -les elements sont concentrés autour de la valeur : 0,00 000 005
-        -Pour la procedure recherche :
-            -utliser set yrange [0.000 000:0.000 006].
-            -plot " " sur le fichier d'extention txt
-            -les elements sont concentrés autour de la valeur : 0,000 002
-    -Pour les arbres, les informations sont considérables autour de la valeur:
-        -Pour la fonction inserer : 0,000 001.
-            -utliser set yrange [0.000 000:0.000 005].
-            -plot " " sur le fichier d'extention txt
-            -les elements sont concentrés autour de la valeur : 0,000 001
-        -Pour la procedure recherche :0,00 000 008.
-            -utliser set yrange [0.00 000 000:0.00 000 006].
-            -plot " " sur le fichier d'extention txt
-            -les elements sont concentrés autour de la valeur : 0,00 000 002
--La performance pour l'insertion est meilleure dans les tables de Hashage.
--La performance pour la recherche est meilleure pour les arbres.
+-> Puis créer une fonction pour chronométrer la durée du lancement de chaque élement dans les deux fonctions (affichage et insersion).
+-> Ensuite nous avons stocker les résultats qui y sont générées dans un fichier.
+-> Pour tester toutes les fonctions du programme, les appels des fonctions sont mis en commentaire dans le main, il suffit de les décommenter pour observer leur fonctionnement.
+-> Des "cout" sont mis en commenteires dans les fichier .cpp pour voir le fontionnement des procedures ou la valeur de retour desfocntions. 
+-> Enfin grace à gnuplot, nous avons pu conclure la performance de chaque classe :
+* Pour la tables de Hashage, les informations sont considérables autour de la valeur:
+	* Pour la fonction inserer :  
+		* utliser set yrange [0.00 000 000:0.00 000 009].
+		* plot " " sur le fichier d'extention txt
+		* les elements sont concentrés autour de la valeur : 0,00 000 005
+        * Pour la procedure recherche :
+		* utliser set yrange [0.000 000:0.000 006].
+		* plot " " sur le fichier d'extention txt
+		* les elements sont concentrés autour de la valeur : 0,000 002
+* Pour les arbres, les informations sont considérables autour de la valeur:
+	* Pour la fonction inserer : 0,000 001.
+		* utliser set yrange [0.000 000:0.000 005].
+		* plot " " sur le fichier d'extention txt
+		* les elements sont concentrés autour de la valeur : 0,000 001
+        * Pour la procedure recherche :0,00 000 008.
+		* utliser set yrange [0.00 000 000:0.00 000 006].
+		* plot " " sur le fichier d'extention txt
+		* les elements sont concentrés autour de la valeur : 0,00 000 002
+		
+--------------------
+
+La performance pour l'insertion est meilleure dans les tables de Hashage.
+La performance pour la recherche est meilleure pour les arbres.
 
