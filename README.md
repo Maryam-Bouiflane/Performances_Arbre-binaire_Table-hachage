@@ -1,6 +1,5 @@
 Binôme:
-BOUIFLANE Maryam
-ANGE NIRINA Michaela Rolland
+BOUIFLANE Maryam, ANGE NIRINA Michaela Rolland
 
  
 ARBRE 
@@ -18,7 +17,7 @@ ARBRE
 
 Nous avons réalisés dans la class Arbre, les fonctions suivantes :
 
-* le constructeur par défaut,
+* le constructeur par défaut.
 * le constructeur pas copie.
 * la procedure SupprimerNoeud qui prend un noeud en parametre.
 * le destructeur.
@@ -85,9 +84,9 @@ MAIN
 
 L'utilisateur à le choix entre executer le programme des Arbres ou bien celui des Tables de hashage
 	
-[ ] S'il choisit la table de hashage nous avons:
+* [ ] S'il choisit la table de hashage nous avons:
 	
-	-Creation de deux fichiers pour la performance des procedures d'insertion et de la recherche.
+  - Creation de deux fichiers pour la performance des procedures d'insertion et de la recherche.
 	-Creation d'un tableau de table de taille nbTable.
 	-Lancement du chrono sur la performance de la procedure rechercher.
 	-Ecrire le resultat dans le fichier destiné.
@@ -96,7 +95,7 @@ L'utilisateur à le choix entre executer le programme des Arbres ou bien celui d
 	-affichage de courbe grâce à gnuplot : commande plot " " sur le fichier choisi.
     
     
-[ ] S'il choisit les Arbres alors nous avons:
+* [ ] S'il choisit les Arbres alors nous avons:
     
 	-Creation de deux fichiers pour la performance des procedures d'insertion et de la recherche.
 	-Creation d'un tableau d'arbre de taille nbArbre.
