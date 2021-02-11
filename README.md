@@ -22,7 +22,7 @@ Nous avons réalisés dans la class Arbre, les fonctions suivantes :
 * la procedure SupprimerNoeud qui prend un noeud en parametre.
 * le destructeur.
 * la procedure d'affichage afficheNoeud de la structure Noeud.
-* Trois procédure d'affichage qui pennent chancune un noeud en parametre:
+* Trois procédure d'affichage qui pennent chancune un noeud en parametre :
   - affichagePrefixNoeud
   - affichageInfixNoeud
   - affichagePostfixNoeud
@@ -31,7 +31,7 @@ Nous avons réalisés dans la class Arbre, les fonctions suivantes :
 * la procedure inserer pour inserer un element de type elem dans un arbre.
 * la fonction rechercherElementAPartirDuNoeud qui prend un noeud et un element en paremetre et retourne un noeud.
 * la fonction rechercher qui prend un element en paremetre et qui retourne un noeud.
-* Trois procédures d'affichage d'arbre: 
+* Trois procédures d'affichage d'arbre : 
   - parcours_prefixe
   - parcours_infixe
   - parcours_postfixe
@@ -72,10 +72,10 @@ Nous avons réalisés dans la class, les fonctions suivantes :
 En dehors de la class Arbre, nous avons les fonction suivantes :
 
 * la fonction Hashage qui prend une clé de type clé et une indice de type entier positif en paremetre et qui retourne un entier positif.
-* Trois fonctions de Rehashage qui prennet chancune trois entiers positifs en parametre et qui retourne chancune un entier positif:
-    -collision1 pour le rehashage linéaire.
-    -collision2 pour le rehashage quadratique.
-    -collision3 pour le double hashage.
+* Trois fonctions de Rehashage qui prennet chancune trois entiers positifs en parametre et qui retourne chancune un entier positif :
+  - collision1 pour le rehashage linéaire.
+  - collision2 pour le rehashage quadratique.
+  - collision3 pour le double hashage.
 * le procédure ecrirPerfDansFichier pour l'écriture dans un fichier.
 * le procédure lireDansFichier pour l'écriture dans un fichier.
 	
@@ -86,24 +86,24 @@ L'utilisateur à le choix entre executer le programme des Arbres ou bien celui d
 	
 * [ ] S'il choisit la table de hashage nous avons:
 	
-  - Creation de deux fichiers pour la performance des procedures d'insertion et de la recherche.
-	-Creation d'un tableau de table de taille nbTable.
-	-Lancement du chrono sur la performance de la procedure rechercher.
-	-Ecrire le resultat dans le fichier destiné.
-	-Lancement du chrono sur la performance de la procedure inserer.
-	-Ecrire le resultat dans le fichier destiné.
-	-affichage de courbe grâce à gnuplot : commande plot " " sur le fichier choisi.
+* Creation de deux fichiers pour la performance des procedures d'insertion et de la recherche.
+* Creation d'un tableau de table de taille nbTable.
+* Lancement du chrono sur la performance de la procedure rechercher.
+* Ecrire le resultat dans le fichier destiné.
+* Lancement du chrono sur la performance de la procedure inserer.
+* Ecrire le resultat dans le fichier destiné.
+* affichage de courbe grâce à gnuplot : commande plot " " sur le fichier choisi.
     
     
 * [ ] S'il choisit les Arbres alors nous avons:
     
-	-Creation de deux fichiers pour la performance des procedures d'insertion et de la recherche.
-	-Creation d'un tableau d'arbre de taille nbArbre.
-	-Lancement du chrono sur la performance de la procedure rechercher.
-	-Ecrire le resultat dans le fichier destiné.
-	-Lancement du chrono sur la performance de la procedure inserer.
-	-Ecrire le resultat dans le fichier destiné.
-	-affichage de courbe grâce à gnuplot : commande plot " " sur le fichier choisi.
+* Creation de deux fichiers pour la performance des procedures d'insertion et de la recherche.
+* Creation d'un tableau d'arbre de taille nbArbre.
+* Lancement du chrono sur la performance de la procedure rechercher.
+* Ecrire le resultat dans le fichier destiné.
+* Lancement du chrono sur la performance de la procedure inserer.
+* Ecrire le resultat dans le fichier destiné.
+* affichage de courbe grâce à gnuplot : commande plot " " sur le fichier choisi.
 
 
 ETUDE DES PERFOMANCES
@@ -111,10 +111,10 @@ ETUDE DES PERFOMANCES
 
 On a éffectué une étude de la performance au niveau des fonctions d'inserion et de recherche, sur 10000 caractères, pour la classe Table de Hashage et Arbre.
 
-- On a commencé par construire un tableau de pointeurs pour les deux class.
-- Puis créer une fonction pour chronométrer la durée du lancement de chaque 
+-> On a commencé par construire un tableau de pointeurs pour les deux class.
+* Puis créer une fonction pour chronométrer la durée du lancement de chaque 
 élement dans les deux fonctions (affichage et insersion).
--Ensuite nous avons stocker les résultats qui y sont générées dans un fichier.
+* Ensuite nous avons stocker les résultats qui y sont générées dans un fichier.
 -Pour tester toutes les fonctions du programme, les appels des fonctions sont mis en commentaire
 dans le main, il suffit de les décommenter pour observer leur fonctionnement.
 -Des "cout" sont mis en commenteires dans les fichier .cpp pour voir le fontionnement des procedures 
