@@ -86,24 +86,24 @@ L'utilisateur à le choix entre executer le programme des Arbres ou bien celui d
 	
 * [ ] S'il choisit la table de hashage nous avons:
 	
-* Creation de deux fichiers pour la performance des procedures d'insertion et de la recherche.
-* Creation d'un tableau de table de taille nbTable.
-* Lancement du chrono sur la performance de la procedure rechercher.
-* Ecrire le resultat dans le fichier destiné.
-* Lancement du chrono sur la performance de la procedure inserer.
-* Ecrire le resultat dans le fichier destiné.
-* affichage de courbe grâce à gnuplot : commande plot " " sur le fichier choisi.
+	* Creation de deux fichiers pour la performance des procedures d'insertion et de la recherche.
+	* Creation d'un tableau de table de taille nbTable.
+	* Lancement du chrono sur la performance de la procedure rechercher.
+	* Ecrire le resultat dans le fichier destiné.
+	* Lancement du chrono sur la performance de la procedure inserer.
+	* Ecrire le resultat dans le fichier destiné.
+	* affichage de courbe grâce à gnuplot : commande plot " " sur le fichier choisi.
     
     
 * [ ] S'il choisit les Arbres alors nous avons:
     
-* Creation de deux fichiers pour la performance des procedures d'insertion et de la recherche.
-* Creation d'un tableau d'arbre de taille nbArbre.
-* Lancement du chrono sur la performance de la procedure rechercher.
-* Ecrire le resultat dans le fichier destiné.
-* Lancement du chrono sur la performance de la procedure inserer.
-* Ecrire le resultat dans le fichier destiné.
-* affichage de courbe grâce à gnuplot : commande plot " " sur le fichier choisi.
+	* Creation de deux fichiers pour la performance des procedures d'insertion et de la recherche.
+	* Creation d'un tableau d'arbre de taille nbArbre.
+	* Lancement du chrono sur la performance de la procedure rechercher.
+	* Ecrire le resultat dans le fichier destiné.
+	* Lancement du chrono sur la performance de la procedure inserer.
+	* Ecrire le resultat dans le fichier destiné.
+	* affichage de courbe grâce à gnuplot : commande plot " " sur le fichier choisi.
 
 
 ETUDE DES PERFOMANCES
