@@ -1,6 +1,5 @@
 Binôme:
-__BOUIFLANE Maryam__
-__ANGE NIRINA Michaela Rolland__
+| BOUIFLANE Maryam | ANGE NIRINA Michaela Rolland |
 
  
 ARBRE 
