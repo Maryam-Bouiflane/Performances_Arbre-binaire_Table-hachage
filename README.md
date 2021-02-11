@@ -1,21 +1,15 @@
-Binôme:
-| BOUIFLANE Maryam | ANGE NIRINA Michaela Rolland |
-| Headline 1 in the tablehead | Headline 2 in the tablehead | Headline 3 in the tablehead |
-|:--------------|:-------------:|--------------:|
-| text-align left | text-align center | text-align right |
+Binôme: BOUIFLANE Maryam, ANGE NIRINA Michaela Rolland
  
 ARBRE 
 ===============================================
 
- Dans le fichier .h :
-----------------------
+### Dans le fichier .h :
 
 * Une structure Noeud.
 * Une class Arbre.
 * Un fichier d'extention Element.h contenant un element de type entier.
 
- Dans le fichier .cpp : 
-------------------------
+### Dans le fichier .cpp : 
 
 Nous avons réalisés dans la class Arbre, les fonctions suivantes :
 
@@ -47,8 +41,7 @@ En dehors de la class Arbre, nous avons les fonction suivantes :
  TABLE DE HASHAGE 
 ===============================================
 
- Dans le fichier .h :
-----------------------
+### Dans le fichier .h :
 
 * Une classe enum d'etat.
 * Une class Cellule.
@@ -56,8 +49,7 @@ En dehors de la class Arbre, nous avons les fonction suivantes :
 * Un fichier d'extention Cle.h contenant une clé de type entier positif.
 * Un fichier d'extention InfoAssociee.h contenant un element de type double.
     
- Dans le fichier .cpp :
--------------------------
+### Dans le fichier .cpp :
 
 Nous avons réalisés dans la class, les fonctions suivantes :
 
