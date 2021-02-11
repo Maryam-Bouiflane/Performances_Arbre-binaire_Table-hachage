@@ -1,6 +1,8 @@
 Binôme:
 | BOUIFLANE Maryam | ANGE NIRINA Michaela Rolland |
-
+| Headline 1 in the tablehead | Headline 2 in the tablehead | Headline 3 in the tablehead |
+|:--------------|:-------------:|--------------:|
+| text-align left | text-align center | text-align right |
  
 ARBRE 
 ===============================================
