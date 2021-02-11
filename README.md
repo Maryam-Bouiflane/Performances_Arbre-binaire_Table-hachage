@@ -9,9 +9,9 @@ ARBRE
  Dans le fichier .h :
 ----------------------
 
-	* Une structure Noeud.
-	* Une class Arbre.
-	* Un fichier d'extention Element.h contenant un element de type entier.
+* Une structure Noeud.
+* Une class Arbre.
+* Un fichier d'extention Element.h contenant un element de type entier.
 
  Dans le fichier .cpp : 
 ------------------------
