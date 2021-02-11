@@ -1,10 +1,10 @@
-
+Binôme:
 BOUIFLANE Maryam
 ANGE NIRINA Michaela Rolland
 
  
 ARBRE 
-======================
+===============================================
 
  Dans le fichier .h :
 ----------------------
@@ -44,7 +44,7 @@ En dehors de la class Arbre, nous avons les fonction suivantes :
 
  
  TABLE DE HASHAGE 
-==================================
+===============================================
 
  Dans le fichier .h :
 ----------------------
@@ -81,7 +81,7 @@ En dehors de la class Arbre, nous avons les fonction suivantes :
         * le procédure lireDansFichier pour l'écriture dans un fichier.
 	
 MAIN 
-====================
+===============================================
 
 L'utilisateur à le choix entre executer le programme des Arbres ou bien celui des Tables de hashage
 	
@@ -108,7 +108,7 @@ L'utilisateur à le choix entre executer le programme des Arbres ou bien celui d
 
 
 ETUDE DES PERFOMANCES
-==========================
+===============================================
 
 On a éffectué une étude de la performance au niveau des fonctions d'inserion et de recherche, sur 10000 caractères, pour la classe Table de Hashage et Arbre.
 
