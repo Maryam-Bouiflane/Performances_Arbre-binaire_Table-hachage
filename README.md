@@ -1,5 +1,6 @@
 Binôme:
-BOUIFLANE Maryam, ANGE NIRINA Michaela Rolland
+#BOUIFLANE Maryam
+#ANGE NIRINA Michaela Rolland
 
  
 ARBRE 
@@ -111,12 +112,12 @@ ETUDE DES PERFOMANCES
 
 On a éffectué une étude de la performance au niveau des fonctions d'inserion et de recherche, sur 10000 caractères, pour la classe Table de Hashage et Arbre.
 
--> On a commencé par construire un tableau de pointeurs pour les deux class.
--> Puis créer une fonction pour chronométrer la durée du lancement de chaque élement dans les deux fonctions (affichage et insersion).
--> Ensuite nous avons stocker les résultats qui y sont générées dans un fichier.
--> Pour tester toutes les fonctions du programme, les appels des fonctions sont mis en commentaire dans le main, il suffit de les décommenter pour observer leur fonctionnement.
--> Des "cout" sont mis en commenteires dans les fichier .cpp pour voir le fontionnement des procedures ou la valeur de retour desfocntions. 
--> Enfin grace à gnuplot, nous avons pu conclure la performance de chaque classe :
+> On a commencé par construire un tableau de pointeurs pour les deux class.
+> Puis créer une fonction pour chronométrer la durée du lancement de chaque élement dans les deux fonctions (affichage et insersion).
+> Ensuite nous avons stocker les résultats qui y sont générées dans un fichier.
+> Pour tester toutes les fonctions du programme, les appels des fonctions sont mis en commentaire dans le main, il suffit de les décommenter pour observer leur fonctionnement.
+> Des "cout" sont mis en commenteires dans les fichier .cpp pour voir le fontionnement des procedures ou la valeur de retour desfocntions. 
+> Enfin grace à gnuplot, nous avons pu conclure la performance de chaque classe :
 * Pour la tables de Hashage, les informations sont considérables autour de la valeur:
 	* Pour la fonction inserer :  
 		* utliser set yrange [0.00 000 000:0.00 000 009].
