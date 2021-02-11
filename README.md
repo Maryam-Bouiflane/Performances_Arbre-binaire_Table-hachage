@@ -9,35 +9,35 @@ ARBRE
  Dans le fichier .h :
 ----------------------
 
-    * Une structure Noeud.
-    * Une class Arbre.
-    * Un fichier d'extention Element.h contenant un element de type entier.
+	* Une structure Noeud.
+	* Une class Arbre.
+	* Un fichier d'extention Element.h contenant un element de type entier.
 
  Dans le fichier .cpp : 
 ------------------------
 
 Nous avons réalisés dans la class Arbre, les fonctions suivantes :
 
-        * le constructeur par défaut,
-        * le constructeur pas copie.
-        * la procedure SupprimerNoeud qui prend un noeud en parametre.
-        * le destructeur.
-        * la procedure d'affichage afficheNoeud de la structure Noeud.
-        * Trois procédure d'affichage qui pennent chancune un noeud en parametre:
-            -affichagePrefixNoeud
-            -affichageInfixNoeud
-            -affichagePostfixNoeud
-        * la fonction copieNoeud qui prend un noeud en parametre et retourne un noeud.
-        * la procedure insererElementAPartirDuNoeud pour inserer un element de type Elem dans un noeud
-        * la procedure inserer pour inserer un element de type elem dans un arbre.
-        * la fonction rechercherElementAPartirDuNoeud qui prend un noeud et un element en paremetre et retourne un noeud.
-        * la fonction rechercher qui prend un element en paremetre et qui retourne un noeud.
-        * Trois procédures d'affichage d'arbre: 
-            -parcours_prefixe
-            -parcours_infixe
-            -parcours_postfixe
+	* le constructeur par défaut,
+	* le constructeur pas copie.
+	* la procedure SupprimerNoeud qui prend un noeud en parametre.
+	* le destructeur.
+	* la procedure d'affichage afficheNoeud de la structure Noeud.
+	* Trois procédure d'affichage qui pennent chancune un noeud en parametre:
+	    -affichagePrefixNoeud
+	    -affichageInfixNoeud
+	    -affichagePostfixNoeud
+	* la fonction copieNoeud qui prend un noeud en parametre et retourne un noeud.
+	* la procedure insererElementAPartirDuNoeud pour inserer un element de type Elem dans un noeud
+	* la procedure inserer pour inserer un element de type elem dans un arbre.
+	* la fonction rechercherElementAPartirDuNoeud qui prend un noeud et un element en paremetre et retourne un noeud.
+	* la fonction rechercher qui prend un element en paremetre et qui retourne un noeud.
+	* Trois procédures d'affichage d'arbre: 
+	    -parcours_prefixe
+	    -parcours_infixe
+	    -parcours_postfixe
 
-    En dehors de la class Arbre, nous avons les fonction suivantes :
+En dehors de la class Arbre, nous avons les fonction suivantes :
 
         * le procédure ecrirPerfDansFichier pour l'écriture dans un fichier.
         * le procédure lireDansFichier pour l'écriture dans un fichier.
@@ -49,16 +49,17 @@ Nous avons réalisés dans la class Arbre, les fonctions suivantes :
  Dans le fichier .h :
 ----------------------
 
-    * Une classe enum d'etat.
-    * Une class Cellule.
-    * Une classe Arbre.
-    * Un fichier d'extention Cle.h contenant une clé de type entier positif.
-    * Un fichier d'extention InfoAssociee.h contenant un element de type double.
+	* Une classe enum d'etat.
+	* Une class Cellule.
+	* Une classe Arbre.
+	* Un fichier d'extention Cle.h contenant une clé de type entier positif.
+	* Un fichier d'extention InfoAssociee.h contenant un element de type double.
     
  Dans le fichier .cpp :
 -------------------------
 
 Nous avons réalisés dans la class, les fonctions suivantes :
+
 	* le constructeur par défaut,
 	* le constructeur pas copie.
 	* le destructeur.
@@ -86,32 +87,30 @@ L'utilisateur à le choix entre executer le programme des Arbres ou bien celui d
 	
 [✔] S'il choisit la table de hashage nous avons:
 	
-    -Creation de deux fichiers pour la performance des procedures d'insertion et de la recherche.
-    -Creation d'un tableau de table de taille nbTable.
-    -Lancement du chrono sur la performance de la procedure rechercher.
-    -Ecrire le resultat dans le fichier destiné.
-    -Lancement du chrono sur la performance de la procedure inserer.
-    -Ecrire le resultat dans le fichier destiné.
-    -affichage de courbe grâce à gnuplot : commande plot " " sur le fichier choisi.
+	-Creation de deux fichiers pour la performance des procedures d'insertion et de la recherche.
+	-Creation d'un tableau de table de taille nbTable.
+	-Lancement du chrono sur la performance de la procedure rechercher.
+	-Ecrire le resultat dans le fichier destiné.
+	-Lancement du chrono sur la performance de la procedure inserer.
+	-Ecrire le resultat dans le fichier destiné.
+	-affichage de courbe grâce à gnuplot : commande plot " " sur le fichier choisi.
     
     
 [✔] S'il choisit les Arbres alors nous avons:
     
-    -Creation de deux fichiers pour la performance des procedures d'insertion et de la recherche.
-    -Creation d'un tableau d'arbre de taille nbArbre.
-    -Lancement du chrono sur la performance de la procedure rechercher.
-    -Ecrire le resultat dans le fichier destiné.
-    -Lancement du chrono sur la performance de la procedure inserer.
-    -Ecrire le resultat dans le fichier destiné.
-    -affichage de courbe grâce à gnuplot : commande plot " " sur le fichier choisi.
+	-Creation de deux fichiers pour la performance des procedures d'insertion et de la recherche.
+	-Creation d'un tableau d'arbre de taille nbArbre.
+	-Lancement du chrono sur la performance de la procedure rechercher.
+	-Ecrire le resultat dans le fichier destiné.
+	-Lancement du chrono sur la performance de la procedure inserer.
+	-Ecrire le resultat dans le fichier destiné.
+	-affichage de courbe grâce à gnuplot : commande plot " " sur le fichier choisi.
 
 
 ETUDE DES PERFOMANCES
 ==========================
 
-On a éffectué une étude de la performance au niveau des fonctions 
-d'inserion et de recherche, sur 10000 caractères, pour la classe Table 
-de Hashage et Arbre.
+On a éffectué une étude de la performance au niveau des fonctions d'inserion et de recherche, sur 10000 caractères, pour la classe Table de Hashage et Arbre.
 
 - On a commencé par construire un tableau de pointeurs pour les deux class.
 - Puis créer une fonction pour chronométrer la durée du lancement de chaque 
@@ -143,5 +142,3 @@ ou la valeur de retour desfocntions.
 -La performance pour l'insertion est meilleure dans les tables de Hashage.
 -La performance pour la recherche est meilleure pour les arbres.
 
-
-============================================================================================================
