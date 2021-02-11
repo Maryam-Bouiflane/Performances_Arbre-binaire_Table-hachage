@@ -5,10 +5,10 @@
 11704898 BOUIFLANE Maryam
 11716941 ANGE NIRINA Michaela Rolland
 
+------- ARBRE ----------
 
-============================================= ARBRE ========================================================
 
-----------------------
+
  Dans le fichier .h :
 ----------------------
 
@@ -22,7 +22,7 @@
 
     Nous avons réalisés dans la class Arbre, les fonctions suivantes :
 
-        -le constructeur par défaut,
+        ** le constructeur par défaut,
         -le constructeur pas copie.
         -la procedure SupprimerNoeud qui prend un noeud en parametre.
         -le destructeur.
