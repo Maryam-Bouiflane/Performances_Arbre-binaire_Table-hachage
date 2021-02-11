@@ -24,9 +24,9 @@ Nous avons réalisés dans la class Arbre, les fonctions suivantes :
 * le destructeur.
 * la procedure d'affichage afficheNoeud de la structure Noeud.
 * Trois procédure d'affichage qui pennent chancune un noeud en parametre:
-    -affichagePrefixNoeud
-    -affichageInfixNoeud
-    -affichagePostfixNoeud
+-affichagePrefixNoeud
+-affichageInfixNoeud
+-affichagePostfixNoeud
 * la fonction copieNoeud qui prend un noeud en parametre et retourne un noeud.
 * la procedure insererElementAPartirDuNoeud pour inserer un element de type Elem dans un noeud
 * la procedure inserer pour inserer un element de type elem dans un arbre.
@@ -85,7 +85,7 @@ MAIN
 
 L'utilisateur à le choix entre executer le programme des Arbres ou bien celui des Tables de hashage
 	
-*[✔] S'il choisit la table de hashage nous avons:
+[ ] S'il choisit la table de hashage nous avons:
 	
 	-Creation de deux fichiers pour la performance des procedures d'insertion et de la recherche.
 	-Creation d'un tableau de table de taille nbTable.
@@ -96,7 +96,7 @@ L'utilisateur à le choix entre executer le programme des Arbres ou bien celui d
 	-affichage de courbe grâce à gnuplot : commande plot " " sur le fichier choisi.
     
     
-[✔] S'il choisit les Arbres alors nous avons:
+[ ] S'il choisit les Arbres alors nous avons:
     
 	-Creation de deux fichiers pour la performance des procedures d'insertion et de la recherche.
 	-Creation d'un tableau d'arbre de taille nbArbre.
