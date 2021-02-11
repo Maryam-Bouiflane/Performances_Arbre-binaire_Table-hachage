@@ -110,6 +110,7 @@ On a éffectué une étude de la performance au niveau des fonctions d'inserion 
 	Ensuite nous avons stocker les résultats qui y sont générées dans un fichier.
 	Pour tester toutes les fonctions du programme, les appels des fonctions sont mis en commentaire dans le main, il suffit de les décommenter pour observer leur fonctionnement.
 	Des "cout" sont mis en commenteires dans les fichier .cpp pour voir le fontionnement des procedures ou la valeur de retour desfocntions. 
+	
 	Enfin grace à gnuplot, nous avons pu conclure la performance de chaque classe :
 	* Pour la tables de Hashage, les informations sont considérables autour de la valeur:
 		* Pour la fonction inserer :  
@@ -126,8 +127,8 @@ On a éffectué une étude de la performance au niveau des fonctions d'inserion 
 			- plot " " sur le fichier d'extention txt
 			=> les elements sont concentrés autour de la valeur : 0,000 001
 		* Pour la procedure recherche :0,00 000 008.
-			* utliser set yrange [0.00 000 000:0.00 000 006].
-			* plot " " sur le fichier d'extention txt
+			- utliser set yrange [0.00 000 000:0.00 000 006].
+			- plot " " sur le fichier d'extention txt
 			=> les elements sont concentrés autour de la valeur : 0,00 000 002
 		
 --------------------
