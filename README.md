@@ -23,18 +23,18 @@ Nous avons réalisés dans la class Arbre, les fonctions suivantes :
 * le destructeur.
 * la procedure d'affichage afficheNoeud de la structure Noeud.
 * Trois procédure d'affichage qui pennent chancune un noeud en parametre:
--affichagePrefixNoeud
--affichageInfixNoeud
--affichagePostfixNoeud
+  - affichagePrefixNoeud
+  - affichageInfixNoeud
+  - affichagePostfixNoeud
 * la fonction copieNoeud qui prend un noeud en parametre et retourne un noeud.
 * la procedure insererElementAPartirDuNoeud pour inserer un element de type Elem dans un noeud
 * la procedure inserer pour inserer un element de type elem dans un arbre.
 * la fonction rechercherElementAPartirDuNoeud qui prend un noeud et un element en paremetre et retourne un noeud.
 * la fonction rechercher qui prend un element en paremetre et qui retourne un noeud.
 * Trois procédures d'affichage d'arbre: 
-    -parcours_prefixe
-    -parcours_infixe
-    -parcours_postfixe
+  - parcours_prefixe
+  - parcours_infixe
+  - parcours_postfixe
 
 En dehors de la class Arbre, nous avons les fonction suivantes :
 
